@@ -5,7 +5,8 @@
 - HPA needs K8s metrics server to verify CPU metrics of Pod
 
 ## steps:
--     need to configure metric server
+
+-    need to configure metric server
 -    horizontal pod autoscaler configure require metrics, from metric server using Query for metrics
 -    HPA calculate the replicas
 -    HPA scale the app to desire replicas in Deploy, RS or statefulset
