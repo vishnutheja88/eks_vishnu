@@ -13,3 +13,10 @@ kubectl get secret
 ```
 kubectl get secret <secretname> -o yaml
 ```
+
+```
+kubectl describe certificaterequest
+kubectl describe order
+kbuectl describe challenge
+```
+

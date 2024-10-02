@@ -24,5 +24,5 @@
 - If you want to get certificates for Kubernetes, most of time you would user cert-manager.
 - when you create an ingress and specify the TLS section, cert-manager will create a certificate custom resource and generate private key that will stored in the secret.
 - the Cert-Manager will create CertificateRequest to custom resource, the certificate request will be stored in the custom resource itself since it's public.
-- The CertificateRequest will create an order, and finally, the order will create a challange. The challange can be either HTTP or DNS type.
-- The challange is resolved, cert-manger will receive a public certificate and store it in the same kubernetes secret with the private key. The certificate will be valid for 90 days. 
+- The CertificateRequest will create an order, and finally, the order will create a challenge. The challenge can be either HTTP or DNS type.
+- The challenge is resolved, cert-manger will receive a public certificate and store it in the same kubernetes secret with the private key. The certificate will be valid for 90 days. 
