@@ -1,3 +1,11 @@
+CSI: Container Storage Interface
+    In-Tree EBS Provisioner
+        Legacy
+        will be deprecated soon
+    EBS CSI Driver
+    EFS CSI Driver
+    FSx for Luxter CSI
+
 1. create IAM policy for EBS
 2. Associate IAM policy to workernode IAM roles
 3. Install EBS CSI drivers
