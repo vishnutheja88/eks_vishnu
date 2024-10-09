@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: api-vishnuthejabhadri-xyz
+  namespace: istio-ingress
+spec:
+  secretName: api-vishnuthejabhadri-xyz-crt
+  dnsNames:
+    - app.vishnuthejabhadri.xyz
+  issueRef:
+    name: production-cluster-issuer
+    kind: ClusterIssuer
+    group: cert-manager.io
